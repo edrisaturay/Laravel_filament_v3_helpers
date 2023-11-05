@@ -1,0 +1,21 @@
+{
+  "name": "edrisaturay/laravel_filament_v3_helpers",
+  "description": "Laravel Filament V3 Helpers - Useful For Edrisa Projects",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Edrisa Turay",
+      "email": "edrisa@edrisa.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "filament/filament": "^3.0"
+  },
+  "autoload": {
+      "psr-4": {
+      "EdrisaTuray\\FilamentV3Helpers\\": "src/"
+      }
+  }
+}
